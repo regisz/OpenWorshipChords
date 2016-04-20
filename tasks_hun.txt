@@ -1,0 +1,19 @@
+- első körben Android fejlesztés megnézése
+- adatbázis progi független legyen
+- transzponálást tudjon
+- capo-t kezelje: azaz lehessen mondani, hogy ha X hangnem akkor az adott capo-nál legyen áttranszponálva
+- dalokhoz info:
+ - szöveg (lehessen láthatattlan karaktert bevinni, mondjok "_"-t, az esetleges extra akkordok miatt)
+ - akkordok (karakter-pozícióval lehet megadni a helyét)
+ - ritmus (lehessen egyénit megadni)
+ - jellemző játszási hossz (lehessen egyénit megadni)
+ - egyéni hangnem (akár capo-s)
+ - tag-ek: "Szentlélek_hívó", stb., stb, 
+- dalszöveg importálás OpenLyrics-ből
+- lista generálása:
+ - miséhez:
+  - ünnepnapi
+  - hétköznapi
+ - dicsőítéshez: ehhez lehessen mintát felvenni, hogy pl. 4 gyors dal, aztán lassú, aztán SZL hívó
+- bármilyen tulajdonságra lehessen keresni
+- bármilyen tulajdonság alapján lehessen rendezni, korlátlanul egymásután
