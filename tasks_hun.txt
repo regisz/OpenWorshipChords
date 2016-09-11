@@ -2,12 +2,16 @@
 - adatbázis progi független legyen
 - transzponálást tudjon
 - capo-t kezelje: azaz lehessen mondani, hogy ha X hangnem akkor az adott capo-nál legyen áttranszponálva
+- több eszköz kommunikációja: azaz 1 fő géphez lehessen csatlakozni több al-géppel, és fő gép tudja vezérelni a többit, pl. clone mód: ami a fő-gépen látszik, az látszik az al-gépeken is.
+- felhasználó kezelés
+- zenekar kezelés: virtuális felhasználók felvétele, a tulajdonságaikkal, hogy el lehessen kerülni a transzponációból adódó "izgalmakat"
 - dalokhoz info:
- - szöveg (lehessen láthatattlan karaktert bevinni, mondjok "_"-t, az esetleges extra akkordok miatt)
+ - szöveg (lehessen láthatattlan karaktert bevinni, mondjuk "_"-t, az esetleges extra akkordok miatt)
  - akkordok (karakter-pozícióval lehet megadni a helyét)
- - ritmus (lehessen egyénit megadni)
+ - legmagasabb és legalacsonyabb hang: jelölje meg a dalt, ha az adott hangnem kiesik az aktuális felhasználó tartományából
+ - ritmus: eredeti, egyéni
  - jellemző játszási hossz (lehessen egyénit megadni)
- - egyéni hangnem (akár capo-s)
+ - hangnem: eredeti, egyéni (akár capo-s)
  - tag-ek: "Szentlélek_hívó", stb., stb, 
 - dalszöveg importálás OpenLyrics-ből
 - lista generálása:
