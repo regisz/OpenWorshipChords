@@ -1,10 +1,17 @@
-- első körben Android fejlesztés megnézése
-- adatbázis progi független legyen
+- első körben Android támogatás
+- SQL adatbázis
 - transzponálást tudjon
-- capo-t kezelje: azaz lehessen mondani, hogy ha X hangnem akkor az adott capo-nál legyen áttranszponálva
-- több eszköz kommunikációja: azaz 1 fő géphez lehessen csatlakozni több al-géppel, és fő gép tudja vezérelni a többit, pl. clone mód: ami a fő-gépen látszik, az látszik az al-gépeken is.
-- felhasználó kezelés
-- zenekar kezelés: virtuális felhasználók felvétele, a tulajdonságaikkal, hogy el lehessen kerülni a transzponációból adódó "izgalmakat"
+- capo kezelés:
+  - valós időben
+  - esetlegesen előre meghatározott hangnem esetén egyből capo
+  - ajánlás, hogy kevesebb barré fogást keljen használni (főleg kezdőknek lehet hasznos)
+- több eszköz kommunikációja:
+  - szerver-kliens megoldás:
+    - azaz 1 fő géphez lehessen csatlakozni több al-géppel, és fő gép tudja vezérelni a többit, pl. klón mód: ami a fő-gépen látszik, az látszik az al-gépeken is.
+    - a kliens tudjon fekvést váltani, pl. ha a szervertől egy capo-s dal jön, ki lehessen ezt kapcsolni, azaz a valós akkordok látszódjanak (ez különösen hasznos a basszus-gitárosoknak)
+- felhasználó kezelés:
+  - hangterjedelem (mi az a legmélyebb és legmagasabb hang, ami alatti-feletti dal nem jó, vagy azonnali transzponáció legyen) 
+- zenekar kezelés: virtuális felhasználók felvétele, a tulajdonságaikkal, hogy el lehessen kerülni az énekesek számára a  transzponációból adódó "izgalmakat"
 - dalokhoz info:
  - szöveg (lehessen láthatattlan karaktert bevinni, mondjuk "_"-t, az esetleges extra akkordok miatt)
  - akkordok (karakter-pozícióval lehet megadni a helyét)
@@ -18,6 +25,7 @@
  - miséhez:
   - ünnepnapi
   - hétköznapi
- - dicsőítéshez: ehhez lehessen mintát felvenni, hogy pl. 4 gyors dal, aztán lassú, aztán SZL hívó
+ - dicsőítéshez: ehhez lehessen mintát felvenni, hogy pl. 4 gyors dal, aztán lassú, aztán Szentlélek-hívó, stb.
 - bármilyen tulajdonságra lehessen keresni
 - bármilyen tulajdonság alapján lehessen rendezni, korlátlanul egymásután
+- bármilyen adatot meg lehessen osztani, így a felhasználókat is hamar fel lehet venni pl. a zenekari beállításhoz
