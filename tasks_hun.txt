@@ -1,4 +1,4 @@
-- első körben Android támogatás
+- első körben Android támogatás (bár a java programozási nyelv miatt akár linux, win és macos is támogatott lehet)
 - SQL adatbázis
 - transzponálást tudjon
 - capo kezelés:
@@ -9,8 +9,13 @@
   - szerver-kliens megoldás:
     - azaz 1 fő géphez lehessen csatlakozni több al-géppel, és fő gép tudja vezérelni a többit, pl. klón mód: ami a fő-gépen látszik, az látszik az al-gépeken is.
     - a kliens tudjon fekvést váltani, pl. ha a szervertől egy capo-s dal jön, ki lehessen ezt kapcsolni, azaz a valós akkordok látszódjanak (ez különösen hasznos a basszus-gitárosoknak)
+   - multi-szerver megoldás: többen is tudjanak pl. dalt választani
+   - klienseknek több szintje lehet:
+    - énekes: csak szöveget lát, semmit se tud változtatni
+    - zenész: akkordozást a maga számára tudja változtatni
+    - dal-ajánló: ez az előző állapotok mellett pluszban adható plusz jog: ajánlani lehet következő dalt/dalokat a "szerver" számára
 - felhasználó kezelés:
-  - hangterjedelem (mi az a legmélyebb és legmagasabb hang, ami alatti-feletti dal nem jó, vagy azonnali transzponáció legyen) 
+  - hangterjedelem (mi az a legmélyebb és legmagasabb hang, ami alatti-feletti dal nem jó -> vagy azonnali transzponáció legyen vagy nem válaszható a dal) 
 - zenekar kezelés: virtuális felhasználók felvétele, a tulajdonságaikkal, hogy el lehessen kerülni az énekesek számára a  transzponációból adódó "izgalmakat"
 - dalokhoz info:
  - szöveg (lehessen láthatattlan karaktert bevinni, mondjuk "_"-t, az esetleges extra akkordok miatt)
@@ -20,7 +25,7 @@
  - jellemző játszási hossz (lehessen egyénit megadni)
  - hangnem: eredeti, egyéni (akár capo-s)
  - tag-ek: "Szentlélek_hívó", stb., stb, 
-- dalszöveg importálás OpenLyrics-ből
+- dalszöveg importálás mindenféle ismert szöveg, dalszöveg, vetítő program adatbázisáből, fájlaiből (pl. OpenLyrics, OpenLP)
 - lista generálása:
  - miséhez:
   - ünnepnapi
